@@ -1,8 +1,6 @@
 import "../styles/globals.css";
-import { Inter } from "next/font/google";
 import { Metadata } from "next";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@fontsource/work-sans";
 
 export const metadata: Metadata = {
   title: "svsecure",
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body className="font-serif">{children}</body>
     </html>
   );
 }
