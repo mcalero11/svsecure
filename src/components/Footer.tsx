@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 right-0 bg-secondaryBg" >
+    <footer className="bg-secondaryBg px-6">
       <h1>¿Quiénes somos?</h1>
     </footer>
   );

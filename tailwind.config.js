@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,6 +11,9 @@ module.exports = {
         success: "#05A30B",
         error: "#CF1212",
         secondaryBg: "#F2F2F2",
+      },
+      scale: {
+        flip: '-1',
       },
     },
     fontFamily: {
