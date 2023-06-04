@@ -13,7 +13,7 @@ module.exports = {
         secondaryBg: "#F2F2F2",
       },
       scale: {
-        flip: '-1',
+        flip: "-1",
       },
     },
     fontFamily: {
