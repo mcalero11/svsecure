@@ -9,15 +9,16 @@ export const Header = () => {
     <header>
       <div className="bg-primary flex flex-col items-center gap-y-7 px-6">
         <Image src={Logo} alt={TEXTS.LOGO_ALT} className="w-24 mt-7" />
-        <h1 className="font-bold text-white text-4xl">{TEXTS.HEADER_TITLE}</h1>
-        <p className="text-white">{TEXTS.HEADER_SUBTITLE}</p>
+        <h1 className="font-bold text-white text-4xl text-center">{TEXTS.HEADER_TITLE}</h1>
+        <p className="text-white text-center">{TEXTS.HEADER_SUBTITLE}</p>
         <div>
-          <div className="flex flex-row">
+          <div className="flex flex-col sm:flex-row">
             <input
-              className="rounded-md placeholder:text-[#828282] placeholder:px-4 h-11 basis-2/3"
+              type="email"
+              className="rounded-md placeholder:text-[#828282] placeholder:px-4 h-11 mb-2 sm:basis-2/3 sm:mb-0 sm:mr-2"
               placeholder={TEXTS.INPUT_PLACEHOLDER}
             />
-            <button className="text-white rounded-md h-11 basis-1/3 mx-4 bg-secondary">
+            <button className="text-white rounded-md h-11 bg-secondary sm:basis-1/3 sm:mx-4">
               {TEXTS.BUTTON_TEXT}
             </button>
           </div>
