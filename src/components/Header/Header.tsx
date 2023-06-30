@@ -4,12 +4,14 @@ import Image from "next/image";
 import HeroImage from "@/assets/hero.webp";
 import Logo from "@/assets/logo-no-background.webp";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div className="bg-primary flex flex-col items-center gap-y-7 px-6">
         <Image src={Logo} alt={TEXTS.LOGO_ALT} className="w-24 mt-7" />
-        <h1 className="font-bold text-white text-4xl text-center">{TEXTS.HEADER_TITLE}</h1>
+        <h1 className="font-bold text-white text-4xl text-center">
+          {TEXTS.HEADER_TITLE}
+        </h1>
         <p className="text-white text-center">{TEXTS.HEADER_SUBTITLE}</p>
         <div>
           <div className="flex flex-col sm:flex-row">
@@ -27,7 +29,7 @@ export const Header = () => {
         <Image
           src={HeroImage}
           alt={TEXTS.IMAGE_ALT}
-          className="w-2/3 xl:w-2/5 scale-x-flip"
+          className="scale-x-flip sm:w-2/3 xl:w-2/5"
           priority={true}
         />
       </div>
@@ -44,3 +46,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
