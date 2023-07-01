@@ -26,7 +26,11 @@ const Footer = () => {
             <br />
             {TEXTS.DONATION_TEXT_2}
           </h3>
-          <Image src={PaypalButton} alt={TEXTS.DONATION_BUTTON_ALT} className="mt-4" />
+          <Image
+            src={PaypalButton}
+            alt={TEXTS.DONATION_BUTTON_ALT}
+            className="mt-4"
+          />
         </div>
       </div>
     </footer>

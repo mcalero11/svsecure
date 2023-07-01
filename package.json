@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "fix:format": "prettier --write --ignore-path .gitignore .",
-    "check:format": "npm run lint && npm run fix:format && prettier --check --ignore-path .gitignore ."
+    "check:format": "npm run lint && prettier --check --ignore-path .gitignore ."
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
