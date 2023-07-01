@@ -1,4 +1,3 @@
-import React from "react";
 import { TEXTS } from "./constants";
 import Image from "next/image";
 import HeroImage from "@/assets/hero.webp";

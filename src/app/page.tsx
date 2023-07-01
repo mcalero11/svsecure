@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "@/components/Footer";
 import CoursesList from "@/components/CoursesList";
 import CallToAction from "@/components/CallToAction";

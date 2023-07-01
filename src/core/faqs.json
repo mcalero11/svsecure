@@ -1,0 +1,26 @@
+[
+  {
+    "question": "¿Quiénes somos?",
+    "answer": "Somos un grupo de estudiantes interesados en brindarte los conocimientos para evitar que seas víctima de estafadores y puedas compartir tu conocimiento con otras personas."
+  },
+  {
+    "question": "¿Por qué lo hacemos?",
+    "answer": "Esta es una iniciativa como parte de nuestro proceso universitario en el que aportamos algo a la sociedad."
+  },
+  {
+    "question": "¿A quién va dirigida esta información?",
+    "answer": "La información proporcionada en los cursos está principalmente dirigida al sector empresarial pero puede ser usada por cualquier persona en la sociedad que le interese aprender sobre estos temas; incluído, pero no limitado, a organizaciones públicas y privadas, estudiantes, profesionales, etc."
+  },
+  {
+    "question": "¿Para qué necesitamos tu correo electrónico?",
+    "answer": "Tu correo se usará para enviarte tu diploma una vez hayas terminado el curso."
+  },
+  {
+    "question": "¿Tiene validez nuestro diploma?",
+    "answer": "Nuestro diploma no tiene ninguna acreditación nacional o internacional, sin embargo comprueba que eres una persona que ha recibido un nivel esencial de conocimientos en el tema."
+  },
+  {
+    "question": "¿Tienes alguna sugerencia?",
+    "answer": "Si tienes alguna sugerencia o comentario puedes escribirnos a nuestro correo electrónico: <a href='mailto:soporte@svsecure.com'>soporte@svsecure.com</a> o abriendo un ticket en nuestro <a href='https://github.com/mcalero11/svsecure' target='blank' rel='noopener noreferrer'>github</a>"
+  }
+]
