@@ -15,7 +15,9 @@ const Header = () => {
         <div>
           <div className="flex flex-col sm:flex-row">
             <input
+              id="email"
               type="email"
+              autoComplete="email"
               className="rounded-md placeholder:text-[#828282] placeholder:px-4 h-11 mb-2 sm:basis-2/3 sm:mb-0 sm:mr-2"
               placeholder={TEXTS.INPUT_PLACEHOLDER}
             />
