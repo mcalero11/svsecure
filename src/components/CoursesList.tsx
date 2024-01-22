@@ -1,7 +1,7 @@
 const CoursesList = () => {
   return (
     <article>
-      <h2>Loading courses...</h2>
+      <h2>building courses...</h2>
     </article>
   );
 };

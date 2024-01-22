@@ -1,7 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.css";
 import { Metadata } from "next";
-import "@fontsource/work-sans";
 
 export const metadata: Metadata = {
   title: "svsecure",
