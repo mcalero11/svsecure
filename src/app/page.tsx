@@ -5,14 +5,14 @@ import Header from "@/components/Header";
 
 const Home = () => {
   return (
-    <div className="font-serif lg:container lg:mx-auto lg:px-16">
+    <>
       <Header />
-      <main className="px-6 bg-white">
+      <main>
         <CoursesList />
         <CallToAction />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

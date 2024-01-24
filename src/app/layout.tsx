@@ -1,12 +1,18 @@
 import { Analytics } from "@vercel/analytics/react";
-import "../styles/globals.css";
+import { Work_Sans } from "next/font/google";
+import "@/styles/globals.css";
 import { Metadata } from "next";
+import MetadataObject from "@/core/metadata.json";
 
 export const metadata: Metadata = {
-  title: "svsecure",
-  description:
-    "Nos dedicamos a brindar info sobre los delítos informáticos más comunes",
+  title: MetadataObject.title,
+  description: MetadataObject.description,
 };
+
+const WorkSans = Work_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
@@ -14,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
-      <body id="__next">
+    <html lang={MetadataObject.language} className={WorkSans.className}>
+      <body>
         {children}
         <Analytics />
       </body>

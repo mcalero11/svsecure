@@ -1,6 +1,6 @@
 import faqs from "@/core/faqs.json";
 import { TEXTS } from "./constants";
-import FaqItem from "../FaqItem";
+import FaqItem from "@/components/FaqItem";
 import Image from "next/image";
 import PaypalButton from "@/assets/paypal-button.webp";
 

@@ -17,8 +17,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: defaultTheme.fontFamily.sans,
-      serif: ["Work Sans", ...defaultTheme.fontFamily.serif],
+      sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
+      serif: defaultTheme.fontFamily.serif,
       mono: defaultTheme.fontFamily.mono,
     },
   },
@@ -26,6 +26,5 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  important: "#__next",
   plugins: [],
 };
