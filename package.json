@@ -14,7 +14,7 @@
     "check:format": "npm run lint && prettier --check --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@types/node": "20.3.3",
+    "@types/node": "20.11.15",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vercel/analytics": "^1.0.1",
