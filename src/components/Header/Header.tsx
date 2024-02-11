@@ -2,6 +2,7 @@ import { TEXTS } from "./constants";
 import Image from "next/image";
 import HeroImage from "@/assets/hero.webp";
 import Logo from "@/assets/logo-no-background.webp";
+import Wave from "@/components/Wave";
 
 const Header = () => {
   return (
@@ -15,8 +16,10 @@ const Header = () => {
         <div>
           <div className="flex flex-col sm:flex-row">
             <input
+              id="email"
               type="email"
-              className="rounded-md placeholder:text-[#828282] placeholder:px-4 h-11 mb-2 sm:basis-2/3 sm:mb-0 sm:mr-2"
+              autoComplete="email"
+              className="rounded-md placeholder:text-gray-500 placeholder:px-4 h-11 mb-2 sm:basis-2/3 sm:mb-0 sm:mr-2"
               placeholder={TEXTS.INPUT_PLACEHOLDER}
             />
             <button className="text-white rounded-md h-11 bg-secondary sm:basis-1/3 sm:mx-4">
@@ -25,23 +28,16 @@ const Header = () => {
           </div>
           <p className="text-white text-sm mt-3">{TEXTS.INPUT_INFO}</p>
         </div>
+      </div>
+      <div className={"relative"}>
+        <Wave additionalClasses={"absolute top-0"} />
         <Image
           src={HeroImage}
           alt={TEXTS.IMAGE_ALT}
-          className="scale-x-flip sm:w-2/3 xl:w-2/5"
+          className="mx-auto scale-x-flip pt-7 w-3/5 md:w-2/5 2xl:w-1/3"
           priority={true}
         />
       </div>
-      <svg
-        viewBox="0 0 1440 320"
-        className="bg-white sm:-mt-10 md:-mt-20 lg:-mt-40 xl:-mt-60"
-      >
-        <path
-          fill="#2F80ED"
-          fillOpacity="1"
-          d="M0,128L34.3,106.7C68.6,85,137,43,206,32C274.3,21,343,43,411,85.3C480,128,549,192,617,192C685.7,192,754,128,823,122.7C891.4,117,960,171,1029,213.3C1097.1,256,1166,288,1234,272C1302.9,256,1371,192,1406,160L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-        />
-      </svg>
     </header>
   );
 };
