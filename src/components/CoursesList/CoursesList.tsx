@@ -1,4 +1,5 @@
 import { Course } from "@/core/types/Course";
+import Image from "next/image";
 
 type CoursesListProps = {
   courses: unknown;
@@ -10,7 +11,7 @@ const CoursesList = ({ courses }: CoursesListProps) => {
     <article className={"px-6 md:px-24 my-16"}>
       {coursesList.map((course, index) => (
         <>
-          <img
+          <Image
             src={`/images/${course.image}.jpg`}
             alt={course.course_name}
             className={"w-full rounded-lg"}
