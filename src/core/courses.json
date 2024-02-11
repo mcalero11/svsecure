@@ -1,7 +1,37 @@
 [
   {
-    "course_name": "phishing",
-    "description": "phishing",
+    "course_name": "Suplantación de identidad",
+    "course_description": "¿Alguna vez has recibido un correo electrónico de un banco o una empresa que te pide que hagas clic en un enlace y proporciones información personal? Eso es phishing. Los estafadores utilizan correos electrónicos o mensajes de texto para engañarte y obtener información personal. Aprende a identificar y evitar los intentos de phishing.",
     "image": "phishing.png"
+  },
+  {
+    "course_name": "Seguridad en línea",
+    "course_description": "Aprende a proteger tu información personal y financiera en línea. Este curso te enseñará cómo identificar y evitar estafas en línea.",
+    "image": "online_security.png"
+  },
+  {
+    "course_name": "No es si me hackean, es cuando",
+    "course_description": "Deberías asumir que en algún momento serás víctima de un ataque cibernético. Aprende a proteger tus dispositivos y redes, a detectar y responder a las amenazas y a recuperarte de un ataque.",
+    "image": "when_hacked.png"
+  },
+  {
+    "course_name": "Protección de datos",
+    "course_description": "Aprende a proteger tu información personal y financiera en línea. Este curso te enseñará cómo identificar y evitar estafas en línea, cómo crear contraseñas seguras y cómo proteger tus dispositivos y redes.",
+    "image": "data_protection.png"
+  },
+  {
+    "course_name": "Seguridad en línea para niños",
+    "course_description": "Aprende a proteger a tus hijos en línea. Este curso te enseñará cómo enseñar a tus hijos a proteger su información personal y a evitar estafas en línea.",
+    "image": "kids_online_security.png"
+  },
+  {
+    "course_name": "Seguridad en línea para adultos mayores",
+    "course_description": "Aprende a proteger a tus padres o abuelos en línea. Este curso te enseñará cómo enseñar a tus padres o abuelos a proteger su información personal y a evitar estafas en línea.",
+    "image": "seniors_online_security.png"
+  },
+  {
+    "course_name": "Seguridad en línea para empresas",
+    "course_description": "Aprende a proteger tu empresa en línea. Este curso te enseñará cómo proteger la información de tu empresa y a evitar estafas en línea.",
+    "image": "business_online_security.png"
   }
 ]
