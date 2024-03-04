@@ -13,6 +13,8 @@ const CoursesList = ({ courses }: CoursesListProps) => {
         <>
           <Image
             src={`/images/${course.image}.jpg`}
+            width={50}
+            height={50}
             alt={course.course_name}
             className={"w-full rounded-lg"}
           />

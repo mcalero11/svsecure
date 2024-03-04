@@ -2,7 +2,7 @@ import { TEXTS } from "./constants";
 import Image from "next/image";
 import HeroImage from "@/assets/hero.webp";
 import Logo from "@/assets/logo-no-background.webp";
-import Wave from "@/components/Wave";
+import Wave from "@/components/ui/wave";
 
 const Header = () => {
   return (
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       <div className={"relative"}>
-        <Wave additionalClasses={"absolute top-0"} />
+        <Wave className={"absolute top-0 -z-10"} />
         <Image
           src={HeroImage}
           alt={TEXTS.IMAGE_ALT}
