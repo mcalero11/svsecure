@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="flex flex-col gap-9 my-9">
         <CoursesList courses={courses} />
         <CallToAction />
       </main>
