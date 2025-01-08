@@ -1,3 +1,1 @@
-import CoursesList from "./CoursesList";
-
-export default CoursesList;
+export { CoursesList } from "./CoursesList";
