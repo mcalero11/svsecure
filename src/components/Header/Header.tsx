@@ -34,7 +34,7 @@ const Header = () => {
         <Image
           src={HeroImage}
           alt={TEXTS.IMAGE_ALT}
-          className="mx-auto scale-x-flip pt-7 w-3/5 md:w-2/5 2xl:w-1/3"
+          className="mx-auto -scale-x-100 pt-7 w-3/5 md:w-2/5 2xl:w-1/3"
           priority={true}
         />
       </div>

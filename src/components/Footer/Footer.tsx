@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-8 lg:flex-row py-6 bg-secondaryBg px-6 md:px-16">
+    <footer className="flex flex-col gap-8 lg:flex-row py-6 bg-secondary-bg px-6 md:px-16">
       <div className="grow">
         <h2 className="text-2xl font-medium">{TEXTS.TITLE}</h2>
         <Accordion className="flex flex-col mt-4" collapsible type="single">
